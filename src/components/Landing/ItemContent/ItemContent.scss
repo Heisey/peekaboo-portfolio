@@ -1,0 +1,50 @@
+.ItemContent {
+  // color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  opacity: 0;
+  transition: all .3s ease-in 0s;
+  width: 2%;
+
+}
+
+.ItemContent--active {
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  transition: all .3s ease-in 0s;
+  width: 100%;
+  opacity: 1;
+  transition-delay: 0.6s;
+  animation: fade 0.3s 0.6s;
+
+  &__About {
+    color: pink;
+
+  }
+
+  &__Contact {
+
+  }
+
+  &__Projects {
+
+  }
+
+  &__Writing {
+
+  }
+
+  &__Sandbox {
+
+  }
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

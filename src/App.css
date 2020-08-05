@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body {
+  overflow: hidden;
+  position: relative;
+  font-family: "Open Sans";
+}
+
+
+.A {
+  color: #1abc9c;
+  
+}
+
+.B {
+  color: #f1c40f;
+}
+
+.C {
+  color: #e74c3c;
+}
+
+.D {
+  color: #3498db;
+}
+
+.E {
+  color: #e67e22;
+}
+
+.item:active div {
+  opacity: 1;
+  transition-delay: 0.6s;
+}
+
+
+.container:active > .item:not(:active) > .item-link, 
+.container:active > .item:not(:active) div {
+  opacity: 0;
+}

@@ -1,0 +1,31 @@
+
+.Item {
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  // background: currentColor;
+  transition: opacity .3s ease-in-out 0.3s, transform .3s ease-in-out, width .3s ease-in-out .3s;
+}
+
+.Item:last-child::after {
+  content: '';
+  width: 100vw;
+  // background: currentColor;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(99%);
+}
+
+.Item--tiny {
+  width: 2%;
+}
+
+.Item--big {
+  
+}

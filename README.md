@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+CSS Shoutout https://codepen.io/lucasmreis/pen/GEPrGR
+
 ## Available Scripts
 
 In the project directory, you can run:

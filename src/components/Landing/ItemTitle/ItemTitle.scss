@@ -1,0 +1,13 @@
+
+.ItemTitle {
+  text-decoration: none;
+  transform: skew(20deg);
+  transition: all .3s ease-in .3s;
+  color: black;
+}
+
+.ItemTitle--active {
+  opacity: 0;
+  transform: skew(0);
+  transition-delay: 0s;
+}
